@@ -1,0 +1,74 @@
+{
+    "name": "terminus",
+    "version": "1.0.0",
+    "description": "Whatsapp API Wrapper For ITS Whatsapp",
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://coderepo.its.com.pk/Terminus.git"
+    },
+    "scripts": {
+        "terminus-local": "node server.js --tenv local",
+        "terminus-debug": "node server.js --tenv debug",
+        "terminus-devel": "node server.js --tenv development",
+        "terminus-prod": "node server.js --tenv production"
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --no-ignore --fix",
+            "git add --force"
+        ],
+        "*.json": [
+            "prettier --write",
+            "git add --force"
+        ]
+    },
+    "jest": {
+        "setupFilesAfterEnv": [
+            "<rootDir>/src/utils/jest.setup.js"
+        ]
+    },
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@hapi/boom": "^9.0.0",
+        "@hapi/joi": "^17.1.0",
+        "atob": "^2.1.2",
+        "awilix": "^4.2.1",
+        "axios": "^0.20.0",
+        "bluebird": "^3.5.3",
+        "btoa": "^1.2.1",
+        "cron": "^1.8.2",
+        "fastify": "^2.12.0",
+        "fastify-cors": "^2.1.3",
+        "fastify-file-upload": "^2.0.1",
+        "fastify-helmet": "^3.0.0",
+        "fastify-jwt": "^0.9.6",
+        "fastify-plugin": "^1.5.0",
+        "fastify-static": "^2.7.0",
+        "file-type": "^14.3.0",
+        "fluent-schema": "^0.7.0",
+        "futoin-hkdf": "^1.3.2",
+        "got": "^11.1.0",
+        "ioredis": "^4.16.1",
+        "lodash": "^4.17.11",
+        "moment": "^2.24.0",
+        "nconf": "^0.10.0",
+        "nodemailer": "^6.4.6",
+        "pg-monitor": "^1.1.0",
+        "pg-promise": "^8.6.4",
+        "pgsql": "^1.0.0",
+        "pino": "^5.13.3",
+        "pino-pretty": "^3.2.1",
+        "redis": "^3.0.2",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.5",
+        "uuid": "^3.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0",
+        "lint-staged": "^8.1.5"
+    },
+    "author": "amustafa"
+}

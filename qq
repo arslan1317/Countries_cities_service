@@ -1,0 +1,302 @@
+[33mcommit b459e838b1e26aea4c5d1ff97dbb53bf261584e3[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Merge: 96bbe43 8ab8fdd
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 13:27:09 2020 +0500
+
+    Merge remote-tracking branch 'origin/Global-Toggle-Implementation' into develop
+
+[33mcommit 8ab8fdddabe4356d17e3d5e3585f2d36c5bfe468[m[33m ([m[1;31morigin/Global-Toggle-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Thu Feb 20 12:46:14 2020 +0500
+
+    Global toggle has been completed and update query added in customer,inbound-message and setting models
+
+[33mcommit e4c94a2faa29b7b0995d0f1efc8d4514ba33d167[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Thu Feb 20 12:21:08 2020 +0500
+
+    global toggle is in progress
+
+[33mcommit 96bbe43040566b2bf78bcb3a73f03ac52944f9b5[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 12:20:25 2020 +0500
+
+    updated database master script to include consumers column in permissions table
+
+[33mcommit fd0cb707c8b6142b39ac7271baccff95ca50885b[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 11:14:58 2020 +0500
+
+    updated global listing service item count variable assignment
+
+[33mcommit 52471beaf9bf41b732062567477f758d1923d59b[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 11:02:42 2020 +0500
+
+    updated database master script
+
+[33mcommit 9d072a9b73d85c610d7c4f4efcb92b43acd99ef7[m
+Merge: 2f74e66 acd4762
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 10:25:27 2020 +0500
+
+    Merge remote-tracking branch 'origin/Listing_Implementation' into develop
+
+[33mcommit 2f74e669c74506f0857edb1930b56f81789cbc18[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 20 10:25:17 2020 +0500
+
+    added group conversation onboarding process
+
+[33mcommit acd47621ec2fb4930941234ddba7e9e65efef520[m[33m ([m[1;31morigin/Listing_Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Thu Feb 20 10:00:30 2020 +0500
+
+    query added in model
+
+[33mcommit 9ccf5f4cbcd84c811e9730782405e80c9ce332e0[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Wed Feb 19 23:55:27 2020 +0500
+
+    total item and number of page has been added
+
+[33mcommit 43af96b4eaad56b7a7fe6afa9021ed7df9599ab5[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Wed Feb 19 17:48:43 2020 +0500
+
+    pagination and sorting added
+
+[33mcommit b9eadb0c68179d7b3d90f8d514fed424c5e73df8[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Wed Feb 19 14:43:56 2020 +0500
+
+    Name change in listing
+
+[33mcommit 0caa40e9a63b992359d49b52d7bd40170714455b[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Wed Feb 19 12:37:25 2020 +0500
+
+    Global listing has been completed
+
+[33mcommit f699b18cf0b6cb58929317c8fe1eeb3930b38b4f[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Tue Feb 18 19:36:49 2020 +0500
+
+    added onboarding process for inbound messages, added group management apis create and info
+
+[33mcommit 2519e46fe5c1f2d57b075203ef660345657ab256[m
+Merge: 056a71b 6c8ae0b
+Author: unknown <amustafa@its.com.pk>
+Date:   Tue Feb 18 19:01:04 2020 +0500
+
+    merged with Settings-Implementation
+
+[33mcommit 6c8ae0bd59e9a28313b14913c2747538b76fcd0f[m[33m ([m[1;31morigin/Settings-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Tue Feb 18 18:56:41 2020 +0500
+
+    Settings implementation has been completed
+
+[33mcommit 056a71bbb4787e466477ae54f2e03e4cb6b8282d[m[33m ([m[1;31morigin/Role-Permission-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Tue Feb 18 14:12:07 2020 +0500
+
+    UserRole and RolePermission work has been completed
+
+[33mcommit 1bac2f8c9534c28a23d3c9c6a1c98c7f941b44b1[m
+Merge: d5ad2c8 bce1fd6
+Author: unknown <amustafa@its.com.pk>
+Date:   Tue Feb 18 12:10:21 2020 +0500
+
+    merged with Message-Status-CRUD-Implementation
+
+[33mcommit bce1fd64bd16b4a300c8900edea62543a86556c9[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Tue Feb 18 12:01:35 2020 +0500
+
+    Message state crud implementation has been completed
+
+[33mcommit ddceb0ecf4f435cb8f6039c1582b079c96a81579[m[33m ([m[1;31morigin/Permission-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Tue Feb 18 11:24:40 2020 +0500
+
+    Permission Crud has been added
+
+[33mcommit d5ad2c84b2d7ffaee4cc065550f8b4c22746644c[m[33m ([m[1;31morigin/User-CRUD-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Tue Feb 18 10:05:12 2020 +0500
+
+    fixed minor typos and added to user crud byid call in create method
+
+[33mcommit bafef0bddfc1196a80261c7a0ff3331726255a6d[m
+Merge: 9e3b11c f77a5c9
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 23:22:37 2020 +0500
+
+    User and Role has been merged
+
+[33mcommit f77a5c9c7be01ece376e2cf79daf63dca66e2150[m[33m ([m[1;31morigin/Role-CRUD-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 23:20:06 2020 +0500
+
+    Role CRUD implementation has been completed
+
+[33mcommit 4318c3bd3e9cc4e117cd22759f1cdfa908f9ca61[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 20:23:54 2020 +0500
+
+    roles handler, schema and service are in progress
+
+[33mcommit 9e3b11c4ab972303894cf02cb8e0fdcee48a06b3[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 20:01:11 2020 +0500
+
+    User crud operation is completed
+
+[33mcommit b2f20e517e092a1001ccb805a27ac2d6be0966f8[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 19:00:48 2020 +0500
+
+    Added users crud service, updated typo in auth request handler where the authservice was not included
+
+[33mcommit 71423acb0befcfb248c1bea3ea8cedc1fbc8e650[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Mon Feb 17 18:05:38 2020 +0500
+
+    reset project to initial state
+
+[33mcommit 9ad2b909d6c469a24536ee4cedd473ed417d9cc9[m
+Merge: 58ec5f4 d96039a
+Author: unknown <amustafa@its.com.pk>
+Date:   Mon Feb 17 17:53:03 2020 +0500
+
+    Merge remote-tracking branch 'origin/Customer-and-Inbound-Implementation' into develop
+
+[33mcommit 58ec5f45a99161a1a82db4788d00cefed5b60f46[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Mon Feb 17 17:49:29 2020 +0500
+
+    code review fixes from branch users crud implementation
+
+[33mcommit d96039ab132c082998805c42e25a93b48985352e[m[33m ([m[1;31morigin/Customer-and-Inbound-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Mon Feb 17 17:48:38 2020 +0500
+
+    Inbound messages is in progress
+
+[33mcommit 3a9c48184f6b229f428f0a5193c071d79ea77d0c[m
+Merge: 2809f51 65d84d3
+Author: unknown <amustafa@its.com.pk>
+Date:   Mon Feb 17 16:29:24 2020 +0500
+
+    Merge remote-tracking branch 'origin/Users-Crud-Implementation' into develop
+
+[33mcommit 65d84d3c54825b6c0a00289b10248dfd7164f03e[m[33m ([m[1;31morigin/Users-Crud-Implementation[m[33m)[m
+Author: imranshah20 <imran_shah20@hotmail.com>
+Date:   Mon Feb 17 16:26:54 2020 +0500
+
+    Cruds of clients,users,clientsettings,customers
+
+[33mcommit 2809f513d767d641d69e85c8ea153af9be7214f1[m
+Merge: 62494af c507c5b
+Author: unknown <amustafa@its.com.pk>
+Date:   Mon Feb 17 13:34:31 2020 +0500
+
+    Merge remote-tracking branch 'origin/Dashboard' into develop
+
+[33mcommit 472d4da1e08be8638526d64407b3aa1bd918859b[m
+Author: imranshah20 <imran_shah20@hotmail.com>
+Date:   Mon Feb 17 11:57:36 2020 +0500
+
+    user updation in progress
+
+[33mcommit 62494af3175157ae4ee301a27a600d613a72bf6f[m[33m ([m[1;31morigin/Permissions-and-User-Attribute-Implementation[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Sun Feb 16 22:56:34 2020 +0500
+
+    update sql in migration script
+
+[33mcommit e918678f971f6a00c26cd568bf94f98a92f9b8d4[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Sun Feb 16 22:00:32 2020 +0500
+
+    permission and user-attribute added in user authentication
+
+[33mcommit 864af6b7d11b5986580ba9175a2dad4019f21bd6[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Sun Feb 16 19:21:17 2020 +0500
+
+    updated environment files, added local env file to git ignore
+
+[33mcommit c507c5b6060a769e6ae690c91f5423b2123e54a2[m[33m ([m[1;31morigin/Dashboard[m[33m)[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Sun Feb 16 16:44:21 2020 +0500
+
+    Update dashboard name
+
+[33mcommit 57f60ebf290517ddcce2dedd0183d70fe5938655[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Sun Feb 16 15:53:34 2020 +0500
+
+    Consumer working in boxes completed
+
+[33mcommit 6b9ffd6233bb1ffb3b61d029b529ba824809c70d[m
+Merge: 951810b 580576f
+Author: unknown <amustafa@its.com.pk>
+Date:   Sat Feb 15 21:41:49 2020 +0500
+
+    merged with Dashboard
+
+[33mcommit 580576f4b9afa88785f509560bbaf64c8edf4993[m
+Author: Adeel Khan <adeel.aijaz@its.compk>
+Date:   Sat Feb 15 21:39:20 2020 +0500
+
+    Dashboard client api completed and Dashboard Home api is in progress
+
+[33mcommit 951810bc849039d3e4334b3b1c1ee89ce98d4a91[m[33m ([m[1;31morigin/Communication[m[33m)[m
+Author: imranshah20 <imran_shah20@hotmail.com>
+Date:   Sat Feb 15 21:10:24 2020 +0500
+
+    Get Conversation List by ClientId
+
+[33mcommit a5bb4967a25722f78214bfeee5b6e0254ae6b713[m
+Author: imranshah20 <imran_shah20@hotmail.com>
+Date:   Sat Feb 15 20:48:27 2020 +0500
+
+    merge with develop
+
+[33mcommit 49ebfbf9bd052e15076ffa22de77e3a28fec3308[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Sat Feb 15 20:29:50 2020 +0500
+
+    Fixed a bug in user authentication where the user id property was missing
+
+[33mcommit e1b7d3175a18ccaf0fd9f8400ada89cd13a44f89[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Sat Feb 15 16:57:23 2020 +0500
+
+    Added conversations handler, schema, model and service
+
+[33mcommit 7c3024cec7c13f57e6c5606dab59a9fdbeea3ec5[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Sat Feb 15 16:34:54 2020 +0500
+
+    Added dashboard handlers, user crud handlers, user service, dashboard service, auth service now supports login capability, updated headlocker middleware to verify user and clientokens , crypto service has been updated, models have been added
+
+[33mcommit 1c9406ccee80c20e5748c5d7eb3f435b65601134[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Sat Feb 15 14:04:59 2020 +0500
+
+    Added updated database schema
+
+[33mcommit 19e3ad9a527e1ebb36a02901983a246885f57d6f[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Fri Feb 14 12:22:51 2020 +0500
+
+    Added services for whatsapp messaging api, added middleware for authentication and error handling, added authentication handlers and schema
+
+[33mcommit 0699b7eff4c8b921661ae5f03783641d7447e1fd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/Role-Implementation[m[33m, [m[1;32mmaster[m[33m)[m
+Author: unknown <amustafa@its.com.pk>
+Date:   Thu Feb 13 17:05:59 2020 +0500
+
+    Initial Commit

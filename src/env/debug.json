@@ -1,0 +1,49 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 3012,
+        "name": "Terminus",
+        "version": "1.0.0",
+        "api": {
+            "prefixes": {
+                "backend": "v1/backend",
+                "frontend": "v1"
+            }
+        }
+    },
+    "api_keys": [
+        "fcb87d51-0e03-43cb-9eb6-f49888335841"
+    ],
+    "client_id": [
+        "1372035706320697"
+    ],
+    "client_secret": [
+        "6cf68ff6ca949e605766bd9921223e91"
+    ],
+    "crons": [
+        {
+            "name": "CAMPAIGN_INIT",
+            "task": "campaignInit",
+            "taskProvider": "campaignTasksService",
+            "interval": "*/10 * * * * *",
+            "options" : {
+                "limit" : 250
+            }
+        }
+    ],
+    "fastify": {
+        "log_level": 10
+    },
+    "jwt": {
+        "secret": "9e06765b-93bc-4e07-bc59-2e666a51bb0b"
+    },
+    "whatsapp": {
+        "bot_id": "0bdfb269-e6f4-4f96-8e92-471b456806b2",
+        "api_url": "https://eu1.whatsapp.api.sinch.com/whatsapp/v1",
+        "token": "Bearer YgXMZKMrsg.e555iVHpmn.PZDCjaUAp8",
+        "number": "447537454158"
+    },
+    "storage": {
+        "pgsql": {            "user": "itsadmin",            "password": "Gt!43$22Trfdy",            "host": "192.168.68.24",            "port": 5432,            "database": "countries_cities"        },        "redis": {            "port": 6379,            "host": "127.0.0.1"        }
+    }
+}
